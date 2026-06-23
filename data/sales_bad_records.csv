@@ -1,0 +1,6 @@
+order_id,order_date,customer_id,product,category,quantity,unit_price,payment_method,store_location
+,2026-06-03,C011,Tablet,Electronics,1,500.00,Credit Card,Toronto
+1012,2026-06-03,C012,Sofa,Furniture,-1,900.00,Debit Card,North York
+1013,2026-06-03,C013,Pencil,,20,0.50,Cash,Scarborough
+1014,2026-06-03,C014,Camera,Electronics,1,0,Credit Card,Toronto
+1015,wrong-date,C015,Desk Lamp,Furniture,2,45.00,Debit Card,Mississauga
