@@ -1,0 +1,6 @@
+order_id,order_date,customer_id,product,category,quantity,unit_price,payment_method,store_location
+1001,2026-06-01,C001,Laptop,Electronics,1,1200.00,Credit Card,Toronto
+1002,2026-06-01,C002,Office Chair,Furniture,2,150.00,Debit Card,North York
+1003,2026-06-01,C003,Notebook,Stationery,5,3.50,Cash,Scarborough
+1004,2026-06-01,C004,Monitor,Electronics,1,300.00,Credit Card,Toronto
+1005,2026-06-01,C005,Desk,Furniture,1,450.00,Debit Card,Mississauga
