@@ -19,7 +19,6 @@ This project solves the problem by building an automated data pipeline that:
 
 ## Architecture
 
-```text
 CSV Files in Unity Catalog Volume
         ↓
 Bronze Table: bronze_sales_raw
@@ -32,10 +31,4 @@ Gold Tables:
 - gold_revenue_by_category
 - gold_daily_sales_summary
 
-![Pipeline Success](images/pipeline_success.png)
-
-![Quarantine Bad Records](images/quarantine_bad_records.png)
-
-![Gold Revenue by Category](images/gold_revenue_by_category.png)
-
-![Gold Daily Sales Summary](images/gold_daily_sales_summary.png)
+  
