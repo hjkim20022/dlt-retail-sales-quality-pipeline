@@ -17,8 +17,10 @@ This project solves the problem by building an automated data pipeline that:
 - Captures bad records with failure reasons
 - Produces business-ready revenue summary tables
 
+  
 ## Architecture
 
+```text
 CSV Files in Unity Catalog Volume
         ↓
 Bronze Table: bronze_sales_raw
@@ -30,5 +32,22 @@ Quarantine Table: quarantine_sales_bad_records
 Gold Tables:
 - gold_revenue_by_category
 - gold_daily_sales_summary
+```
 
-  
+## Screenshots
+
+### Pipeline Success
+
+![Pipeline Success](images/pipeline_success.png)
+
+### Quarantine Bad Records
+
+![Quarantine Bad Records](images/quarantine_bad_records.png)
+
+### Gold Revenue by Category
+
+![Gold Revenue by Category](images/gold_revenue_by_category.png)
+
+### Gold Daily Sales Summary
+
+![Gold Daily Sales Summary](images/gold_daily_sales_summary.png)
